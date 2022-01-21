@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/20924663/149317090-2482101c-87f2-4fdc-aecc-80e088b66f30.png)
+
+---
+
 ## Description
 
 This is an Edinburgh Napier University Honours Project for (BSc.) Computer Science Degree. 
