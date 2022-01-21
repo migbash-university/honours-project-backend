@@ -16,7 +16,7 @@ This repository is only half-of the project. It focuses on the development of th
 
 ## 🚀 Get Started
 
-**Guides**
+### Guides
 
 Getting started as another video or alternative(s):
 
@@ -25,6 +25,8 @@ Getting started as another video or alternative(s):
 - [guide-3](https://medium.com/co-learning-lounge/step-by-step-guide-to-install-rasa-x-in-windows-without-docker-85da8502bce)
 - [guide-4](https://medium.com/analytics-vidhya/deploying-rasa-chatbot-on-heroku-using-docker-7199bf16c219)
 
+<hr />
+
 - ⭐ [v-guide-2](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
 - ⭐ [v-guide-3](https://www.youtube.com/watch?v=sazsWmP2d3o)
 
@@ -32,12 +34,12 @@ Getting started as another video or alternative(s):
 
 This project has been built and developed using the following `libraries` and `modules`
 
-- [pipenv](https://pypi.org/project/pipenv/)
-- [pyenv *linux-only](https://github.com/pyenv/pyenv) | [pyenv-win](https://github.com/pyenv-win/pyenv-win#installation)
-- [rasa](https://pypi.org/project/rasa/)
-- [python](https://www.python.org/downloads/)
-- [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
-- [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
+- [`pipenv`](https://pypi.org/project/pipenv/)
+- [`pyenv *linux-only`](https://github.com/pyenv/pyenv) | [`pyenv-win`](https://github.com/pyenv-win/pyenv-win#installation)
+- [`rasa`](https://pypi.org/project/rasa/)
+- [`python`](https://www.python.org/downloads/)
+- [`pipenv_and_pyenv`](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
+- [`rasa_and_flask`](https://www.skcript.com/svr/rasa-flask-together-forever/)
 
 ### Data
 
