@@ -2,7 +2,7 @@
 
 ---
 
-## Description
+## 📜 Description
 
 This is an Edinburgh Napier University Honours Project for (BSc.) Computer Science Degree. 
 
@@ -10,7 +10,7 @@ This Honours Project revolves around Conversational A.I. Agents to be used in th
 
 This repository is only half-of the project. It focuses on the development of the `conversational AI` agent and the outline of its development. The `UI/UX` in a web-app format can be accessed on the following link -> [insert-link-here] and for the open-source code for it can be found here -> [insert-link-here]
 
-### Project Graph [ChatBot]
+## 📊 Project Graph [ChatBot]
 
 [insert-project-chart-here]
 
@@ -28,7 +28,7 @@ Getting started as another video or alternative(s):
 - ⭐[v-guide-2](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
 - ⭐[v-guide-3](https://www.youtube.com/watch?v=sazsWmP2d3o)
 
-### Dependecies
+## 📌 Dependecies
 
 This project has been built and developed using the following `libraries` and `modules`
 
@@ -39,26 +39,26 @@ This project has been built and developed using the following `libraries` and `m
 - [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
 - [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
 
-### Data
+## Data
 
 The data used for the project comes from the main source -> `NASA`. Using the correct links and [data](https://solarsystem.nasa.gov/moons/saturn-moons/titan/overview/)
 
-### Libraries In-Depth
+## Libraries In-Depth
 
-**Pipenv**
+### Pipenv
 
 To learn more about how to use the `pipenv` python module for better module management and versioning of the python libraries, please consult the following guide [here](https://pipenv-fork.readthedocs.io/en/latest/basics.html).
 
-**Pyenv**
+### Pyenv
 
 Learn more about how to manage different python versions in one instance evironment of python usong `pyenv`. [tutorial](https://switowski.com/blog/pyenv) [tutorial-2](https://realpython.com/intro-to-pyenv/)
 
 Useful `pynev` commands -> [commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
-**Flask**
+### Flask
 
 The use of a `Flask-API` is used for the correct interaction over the web-api with the `Conversational A.I.` agent with the correct method. To validate the correct use of the flask and the methods used, the `pytest` module is used -> (https://flask.palletsprojects.com/en/2.0.x/testing/)
 
-**Rasa**
+### Rasa
 
 Installing `rasa` using the `pipenv` module has been achieved using the following set of commands:
