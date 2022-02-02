@@ -6,6 +6,23 @@ This Honours Project revolves around Conversational A.I. Agents to be used in th
 
 This repository is only half-of the project. It focuses on the development of the `conversational AI` agent and the outline of its development. The `UI/UX` in a web-app format can be accessed on the following link -> [insert-link-here] and for the open-source code for it can be found here -> [insert-link-here]
 
+This project is a `conversational-agent` tailored on the builing of a `space-education` website.
+
+### Implementation #1 [w/ `BERT`]
+
+This implementation project is a use of `BERT` technology and `HuggingFace` with the transformers library for the users to use.
+
+https://huggingface.co/models
+
+The project has also been implemented as a `GoogleCollab` Notebook, [here.](https://colab.research.google.com/drive/1BkZXC41xG9hDmCmkJHKnHr3bu_RH0gAO#scrollTo=9JWFcwzheK3e)
+
+**Why `PyTorch` vs. `Tensorflow`?**
+
+The main reason for the use of `PyTorch` instead that of `Tensorflow` is the use: _PyTorch has long been the preferred deep-learning library for researchers, while TensorFlow is much more widely used in production. PyTorch's ease of use makes it convenient for fast, hacky solutions and smaller-scale models._ - [ref](https://www.udacity.com/blog/2020/05/pytorch-vs-tensorflow-what-you-need-to-know.html)
+
+https://rasa.com/blog/how-to-benchmark-bert/
+https://blog.marketmuse.com/glossary/question-answering-definition/
+
 ### Project Graph [ChatBot]
 
 [insert-project-chart-here]
@@ -21,10 +38,20 @@ Getting started as another video or alternative(s):
 - [guide-3](https://medium.com/co-learning-lounge/step-by-step-guide-to-install-rasa-x-in-windows-without-docker-85da8502bce)
 - [guide-4](https://medium.com/analytics-vidhya/deploying-rasa-chatbot-on-heroku-using-docker-7199bf16c219)
 
-- ⭐ [v-guide-2](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
-- ⭐ [v-guide-3](https://www.youtube.com/watch?v=sazsWmP2d3o)
+---
 
-### Dependecies
+- ⭐[v-guide-2](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
+- ⭐[v-guide-3](https://www.youtube.com/watch?v=sazsWmP2d3o)
+
+---
+
+- [guide-6-bert](https://github.com/allenai/scibert)
+- [guide-7-bert](https://github.com/rsvp-ai/bertserini)
+- [guide-8-bert](https://huggingface.co/models)
+- [guide-9-bert](https://aclanthology.org/N19-4013/)
+- [guide-10-bert](https://towardsdatascience.com/how-to-train-a-bert-model-from-scratch-72cfce554fc6)
+
+### 📌 Dependecies
 
 This project has been built and developed using the following `libraries` and `modules`
 
@@ -35,11 +62,11 @@ This project has been built and developed using the following `libraries` and `m
 - [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
 - [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
 
-### Data
+### 📃 Data
 
 The data used for the project comes from the main source -> `NASA`. Using the correct links and [data](https://solarsystem.nasa.gov/moons/saturn-moons/titan/overview/)
 
-### Libraries In-Depth
+### 📄 Libraries In-Depth
 
 **Pipenv**
 
@@ -58,51 +85,3 @@ The use of a `Flask-API` is used for the correct interaction over the web-api wi
 **Rasa**
 
 Installing `rasa` using the `pipenv` module has been achieved using the following set of commands:
-
-## 🐛 Common Issues
-
-**Setup & Project Config**
-
-**1**
-
-```
-Warning: Your dependencies could not be resolved. You likely have a mismatch in your sub-dependencies.
-Soution:pipenv lock --pre --clear
-```
-
-- [out-of-disk-space] --> buy more storage (?) - local machine has 15GB of free space...
-
-**Rasa (+ pipenv)**
-
-My issues found with `rasa` & `pipenv` that have been encountered along the way:
-
-- [rasa-pipenv-installation-1](https://stackoverflow.com/questions/70691490/pipenv-install-rasa-incorrect-version)
-- [rasa-pipenv-installation-2](https://stackoverflow.com/questions/70727477/rasa-3-0-4-not-installing-due-to-dependency-issues)
-- [rasa-pipenv-installation-3](https://stackoverflow.com/questions/70728938/rasa-x-stuck-on-installing)
-- [rasa-pipenv-installation-4](https://stackoverflow.com/questions/70645861/rasa-x-takes-too-long-to-install)
- 
-Questions and Answers from other people and solutions:
-
-- [rasa-pipenv-installation-e-3](https://github.com/RasaHQ/rasa/issues/7962)
-- [rasa-pipenv-installation-e-4](https://github.com/RasaHQ/rasa/issues/7124)
-- [pipenv-rasa-installation-error-and-taking-forever](https://stackoverflow.com/questions/65806524/pip-install-rasa-x-takes-forever)
-- [question](https://stackoverflow.com/questions/70645861/rasa-x-takes-too-long-to-install?noredirect=1#comment124886791_70645861)
-
-**Rasa-X**
-
-```
-pipenv install rasa-x -i https://pypi.rasa.com/simple
-```
-
-**code-examples**
-
-```
-pipenv --no-cache-dir install rasa
-```
-[link-solution](https://stackoverflow.com/questions/29466663/memory-error-while-using-pip-install-matplotlib)
-
-[build-tools-requirement](https://docs.microsoft.com/en-us/answers/questions/136985/build-tools-for-visual-studio.html)
-
-```
-pipenv install aiohttp==3.6.3 multidict==4.7.6 pytz==2020.5 SQLAlchemy==1.3.19
-```
