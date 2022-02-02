@@ -1,4 +1,8 @@
-## Description
+![image](https://user-images.githubusercontent.com/20924663/149317090-2482101c-87f2-4fdc-aecc-80e088b66f30.png)
+
+---
+
+## 📜 Description
 
 This is an Edinburgh Napier University Honours Project for (BSc.) Computer Science Degree. 
 
@@ -68,20 +72,20 @@ The data used for the project comes from the main source -> `NASA`. Using the co
 
 ### 📄 Libraries In-Depth
 
-**Pipenv**
+### Pipenv
 
 To learn more about how to use the `pipenv` python module for better module management and versioning of the python libraries, please consult the following guide [here](https://pipenv-fork.readthedocs.io/en/latest/basics.html).
 
-**Pyenv**
+### Pyenv
 
 Learn more about how to manage different python versions in one instance evironment of python usong `pyenv`. [tutorial](https://switowski.com/blog/pyenv) [tutorial-2](https://realpython.com/intro-to-pyenv/)
 
 Useful `pynev` commands -> [commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
-**Flask**
+### Flask
 
 The use of a `Flask-API` is used for the correct interaction over the web-api with the `Conversational A.I.` agent with the correct method. To validate the correct use of the flask and the methods used, the `pytest` module is used -> (https://flask.palletsprojects.com/en/2.0.x/testing/)
 
-**Rasa**
+### Rasa
 
 Installing `rasa` using the `pipenv` module has been achieved using the following set of commands:
