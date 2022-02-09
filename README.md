@@ -95,3 +95,15 @@ This project is broken down into the following structure and components:
 - `app.py` - contains the main project entry for the project and the necessary endpoints to make the application run and work.
 - `Pipfile` + `Pipfile.lock` - are the main files essential for the interaction with the `pipenv` and the further interaction of the `virtualenv`.
 - `bert_env` - contains the data for the `BERT` development and the necessary data for its operation.
+
+### Locking Dependecies:
+
+```
+https://drgabrielharris.medium.com/python-how-create-requirements-txt-using-pipenv-2c22bbb533af
+```
+
+https://medium.com/analytics-vidhya/deploying-bert-on-heroku-7df1d23f9c43
+
+- https://datahive.ai/conversational-chatbot-part-1/
+- https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
+- https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
