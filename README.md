@@ -54,27 +54,15 @@ The use of a `Flask-API` is used for the correct interaction over the web-api wi
 
 ## 🚀 Get Started
 
-**Guides**
+To get started with the development of the project, you can follow the following:
 
-Getting started as another video or alternative(s):
+### 🛠 Development
 
-- [guide-1](https://www.machinelearningplus.com/nlp/chatbot-with-rasa-and-spacy/)
-- [guide-2](https://towardsdatascience.com/create-chatbot-using-rasa-part-1-67f68e89ddad)
-- [guide-3](https://medium.com/co-learning-lounge/step-by-step-guide-to-install-rasa-x-in-windows-without-docker-85da8502bce)
-- [guide-4](https://medium.com/analytics-vidhya/deploying-rasa-chatbot-on-heroku-using-docker-7199bf16c219)
+First, clone the repository, using:
 
----
-
-- ⭐[v-guide-2](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
-- ⭐[v-guide-3](https://www.youtube.com/watch?v=sazsWmP2d3o)
-
----
-
-- [guide-6-bert](https://github.com/allenai/scibert)
-- [guide-7-bert](https://github.com/rsvp-ai/bertserini)
-- [guide-8-bert](https://huggingface.co/models)
-- [guide-9-bert](https://aclanthology.org/N19-4013/)
-- [guide-10-bert](https://towardsdatascience.com/how-to-train-a-bert-model-from-scratch-72cfce554fc6)
+```
+git clone <insert-repo-name-link>
+```
 
 ### 📌 Dependecies
 
@@ -107,3 +95,14 @@ https://medium.com/analytics-vidhya/deploying-bert-on-heroku-7df1d23f9c43
 - https://datahive.ai/conversational-chatbot-part-1/
 - https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
 - https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
+
+
+### 🐳 Dockerize
+
+This application has been developed as a `Docker Application` , so it can be just deployed wherever needed quickly.
+
+- **heroku**
+
+For the deployment of the `heroku` for the `backend` as a `Docker-container` the following useful link-articles have been used:
+- [link](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml)
+- [link-2](https://devcenter.heroku.com/articles/container-registry-and-runtime)
