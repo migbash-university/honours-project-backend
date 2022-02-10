@@ -2,7 +2,7 @@
 
 ---
 
-## 📜 Description
+## 📜 About / Description
 
 This is an Edinburgh Napier University Honours Project for (BSc.) Computer Science Degree. 
 
@@ -12,15 +12,67 @@ This repository is only half-of the project. It focuses on the development of th
 
 This project is a `conversational-agent` tailored on the builing of a `space-education` website.
 
-## 📊 Project Graph [ChatBot]
+## 📊 Project Graph Overview [ChatBot]
 
 [insert-project-chart-here]
 
 ## 📃 Data
 
-The data used for the project comes from the main source -> `NASA`. Using the correct links and [data](https://solarsystem.nasa.gov/moons/saturn-moons/titan/overview/)
+The data used for the project comes from the main source -> `NASA`. Using the correct links and [data](https://solarsystem.nasa.gov/moons/saturn-moons/titan/overview/).
 
-## 🔭 In-depth technologies
+Due to lack of open-end available `APIs` for consuremrs, the data gathered on `Titan` has been done manually and compiled down into a 3 page large text accessible in the following link: [link](). This data has been used throughout the entirety of the testing phase for the participants.
+
+## 🐳 Dockerized
+
+This application has been developed as a `Docker Application` , so it can be just deployed wherever needed quickly.
+
+## 🚀 Get Started
+
+To get started with the development of the project, you can follow the following:
+
+### 🛠 Development
+
+1. First, clone the repository,
+
+`git clone https://github.com/migbash-university/honours-project-backend `
+
+2. Update the `requirments.txt` file using the following command:
+
+```
+https://drgabrielharris.medium.com/python-how-create-requirements-txt-using-pipenv-2c22bbb533af
+```
+
+### 🚀 Production and Deployment
+
+To deploy this applciation, the use of `Google Cloud` is used. For this, simply run the following command: 
+
+```
+gcloud run deply
+```
+
+and this will deploy to your `Google Cloud` Account.
+
+## 📌 Project Dependecies
+
+This project has been built and developed using the following `libraries` and `modules`,
+
+- [pipenv](https://pypi.org/project/pipenv/)
+- [pyenv *linux-only](https://github.com/pyenv/pyenv) | [pyenv-win](https://github.com/pyenv-win/pyenv-win#installation)
+- [rasa](https://pypi.org/project/rasa/)
+- [python](https://www.python.org/downloads/)
+- [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
+- [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
+
+## 📂 Project Structure
+
+This project is broken down into the following structure and components:
+
+- `.python-version` - contains the `pyenv-win` version that is used for this project.
+- `app.py` - contains the main project entry for the project and the necessary endpoints to make the application run and work.
+- `Pipfile` + `Pipfile.lock` - are the main files essential for the interaction with the `pipenv` and the further interaction of the `virtualenv`.
+- `bert_env` - contains the data for the `BERT` development and the necessary data for its operation.
+
+## 🔭 Project Overview Questions and Answers:
 
 Diving deeper in the understanding of the project technology stack and design decisions:
 
@@ -48,61 +100,6 @@ The use of `RASA` has been omitted in the development cycle of this project, due
 
 2. Pyenv: Learn more about how to manage different python versions in one instance evironment of python usong `pyenv`. [tutorial](https://switowski.com/blog/pyenv) [tutorial-2](https://realpython.com/intro-to-pyenv/). Useful `pynev` commands -> [commands](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md)
 
-**Why `Flask-API` ?**
+**Why `Flask-API-RESTful` Service ?**
 
 The use of a `Flask-API` is used for the correct interaction over the web-api with the `Conversational A.I.` agent with the correct method. To validate the correct use of the flask and the methods used, the `pytest` module is used -> (https://flask.palletsprojects.com/en/2.0.x/testing/)
-
-## 🚀 Get Started
-
-To get started with the development of the project, you can follow the following:
-
-### 🛠 Development
-
-First, clone the repository, using:
-
-```
-git clone <insert-repo-name-link>
-```
-
-### 📌 Dependecies
-
-This project has been built and developed using the following `libraries` and `modules`
-
-- [pipenv](https://pypi.org/project/pipenv/)
-- [pyenv *linux-only](https://github.com/pyenv/pyenv) | [pyenv-win](https://github.com/pyenv-win/pyenv-win#installation)
-- [rasa](https://pypi.org/project/rasa/)
-- [python](https://www.python.org/downloads/)
-- [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
-- [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
-
-### 📂 Project Structure
-
-This project is broken down into the following structure and components:
-
-- `.python-version` - contains the `pyenv-win` version that is used for this project.
-- `app.py` - contains the main project entry for the project and the necessary endpoints to make the application run and work.
-- `Pipfile` + `Pipfile.lock` - are the main files essential for the interaction with the `pipenv` and the further interaction of the `virtualenv`.
-- `bert_env` - contains the data for the `BERT` development and the necessary data for its operation.
-
-### Locking Dependecies:
-
-```
-https://drgabrielharris.medium.com/python-how-create-requirements-txt-using-pipenv-2c22bbb533af
-```
-
-https://medium.com/analytics-vidhya/deploying-bert-on-heroku-7df1d23f9c43
-
-- https://datahive.ai/conversational-chatbot-part-1/
-- https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
-- https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
-
-
-### 🐳 Dockerize
-
-This application has been developed as a `Docker Application` , so it can be just deployed wherever needed quickly.
-
-- **heroku**
-
-For the deployment of the `heroku` for the `backend` as a `Docker-container` the following useful link-articles have been used:
-- [link](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml)
-- [link-2](https://devcenter.heroku.com/articles/container-registry-and-runtime)
