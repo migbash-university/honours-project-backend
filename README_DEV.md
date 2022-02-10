@@ -14,6 +14,7 @@ Getting started as another video or alternative(s):
 - [guide-5](https://thepathforward.io/building-your-first-ai-chatbot/)
 - ⭐[How to Create Conversational AI Chatbot using RASA (Python) by Cisco Data Scientist](https://www.youtube.com/watch?v=Nk9K4s8g9yQ)
 - ⭐[An Open-Source Chatbot Made With Rasa](https://www.youtube.com/watch?v=sazsWmP2d3o)
+- [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
 
 ---
 
@@ -75,6 +76,8 @@ Potential [options.](https://geekflare.com/python-hosting-platform/)
 - [Deploying Python App GoogleCloud `Transformers` and `PyTorch`](https://huggingface.co/blog/how-to-deploy-a-pipeline-to-google-clouds)
 
 ![image](https://user-images.githubusercontent.com/20924663/153281199-98fcf597-ff9c-46fa-bc92-22510d4d92e1.png)
+
+- [deploying to compute engine](https://www.section.io/engineering-education/deploy-flask-to-gce/)
 
 **Deployment to `Heroku`:**
 
