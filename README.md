@@ -52,27 +52,29 @@ gcloud run deply
 
 and this will deploy to your `Google Cloud` Account.
 
-## 📌 Project Dependecies
+## 📚 Project Dependecies
 
 This project has been built and developed using the following `libraries` and `modules`,
 
-- [pipenv](https://pypi.org/project/pipenv/)
-- [pyenv *linux-only](https://github.com/pyenv/pyenv) | [pyenv-win](https://github.com/pyenv-win/pyenv-win#installation)
-- [rasa](https://pypi.org/project/rasa/)
-- [python](https://www.python.org/downloads/)
-- [pipenv_and_pyenv](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
-- [rasa_and_flask](https://www.skcript.com/svr/rasa-flask-together-forever/)
+- [`pipenv`](https://pypi.org/project/pipenv/)
+- [`pyenv (*linux-only)`](https://github.com/pyenv/pyenv) || [`pyenv-for-windows`](https://github.com/pyenv-win/pyenv-win#installation)
+- [`rasa`](https://pypi.org/project/rasa/)
+- [`python`](https://www.python.org/downloads/)
+- [`pipenv_and_pyenv`](https://hackernoon.com/reaching-python-development-nirvana-bb5692adf30c)
+- [`PyTorch`](https://pytorch.org/)
+- [`Flask`](https://flask.palletsprojects.com/en/2.0.x/)
+- [`guinicorn`](https://gunicorn.org/)
 
 ## 📂 Project Structure
 
-This project is broken down into the following structure and components:
+This project is broken down into the following structure and crucial files:
 
 - `.python-version` - contains the `pyenv-win` version that is used for this project.
 - `app.py` - contains the main project entry for the project and the necessary endpoints to make the application run and work.
 - `Pipfile` + `Pipfile.lock` - are the main files essential for the interaction with the `pipenv` and the further interaction of the `virtualenv`.
 - `bert_env` - contains the data for the `BERT` development and the necessary data for its operation.
 
-## 🔭 Project Overview Questions and Answers:
+## 🤔 Why certain technologies?:
 
 Diving deeper in the understanding of the project technology stack and design decisions:
 
