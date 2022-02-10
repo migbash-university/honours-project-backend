@@ -4,6 +4,7 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # ~ OTHER LIBRARIES FOR PYTHON ~~~~~~~
 
+import os
 import json
 import requests
 import random
@@ -87,4 +88,6 @@ def post_question():
 
 if __name__ == "__main__":
     # ... start the application
-    app.run(debug=True, threaded=True, host='0.0.0.0', port=9000)
+    # app.run(debug=True, threaded=True, host='0.0.0.0', port=9000)
+    # app.run(threaded=True, host='0.0.0.0')
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
