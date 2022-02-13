@@ -64,6 +64,8 @@ This project has been built and developed using the following `libraries` and `m
 - [`PyTorch`](https://pytorch.org/)
 - [`Flask`](https://flask.palletsprojects.com/en/2.0.x/)
 - [`guinicorn`](https://gunicorn.org/)
+- [`transformers (by-hugging-face)`](https://huggingface.co/docs/transformers/installation)
+- [`docker`](https://www.docker.com/)
 
 ## 📂 Project Structure
 
@@ -83,6 +85,8 @@ Diving deeper in the understanding of the project technology stack and design de
 This implementation project is a use of `BERT` technology by `HuggingFace` with their `transformers` library for the users to use. The model is a `pre-trained` model that by `HuggingFace` obtained from the list of existing models [here.](https://huggingface.co/models)
 
 The project has also been implemented as a `GoogleCollab` Notebook, [here.](https://colab.research.google.com/drive/1BkZXC41xG9hDmCmkJHKnHr3bu_RH0gAO?usp=sharing)
+
+https://huggingface.co/deepset/roberta-base-squad2?context=My+name+is+Wolfgang+and+I+live+in+Berlin&question=Where+do+I+live%3F
 
 **Why `PyTorch` vs. `Tensorflow`?**
 

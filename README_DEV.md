@@ -1,12 +1,11 @@
-**Personal Local Development Guides**
+# Personal Local Development Guides
 
 This is a personal `README.md` file, used for `local-development` for the `backend-API`, as a reminder and useful links to sources:
-
 Getting started as another video or alternative(s):
 
----
+### 🤖 Bot Development Guides:
 
-**`RASA` Bot Development useful guides:**
+**`RASA` Bot Development useful guides: [NOT APPLICAPBLE]**
 - [guide-1](https://www.machinelearningplus.com/nlp/chatbot-with-rasa-and-spacy/)
 - [guide-2](https://towardsdatascience.com/create-chatbot-using-rasa-part-1-67f68e89ddad)
 - [guide-3](https://medium.com/co-learning-lounge/step-by-step-guide-to-install-rasa-x-in-windows-without-docker-85da8502bce)
@@ -18,11 +17,7 @@ Getting started as another video or alternative(s):
 
 ---
 
-- https://datahive.ai/conversational-chatbot-part-1/
-- https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
-- https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
-
----
+**`BERT` Bot Development useful guides: [APPLICABLE]**
 
 - [guide-6-bert](https://github.com/allenai/scibert)
 - [guide-7-bert](https://github.com/rsvp-ai/bertserini)
@@ -31,6 +26,14 @@ Getting started as another video or alternative(s):
 - [guide-10-bert](https://towardsdatascience.com/how-to-train-a-bert-model-from-scratch-72cfce554fc6)
 
 ---
+
+**Mix of `BERT` and `RASA` development:**
+
+- https://datahive.ai/conversational-chatbot-part-1/
+- https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
+- https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
+
+### 🐋 Docker Guides:
 
 **`Dockerize` a Flask (Python) App:**
 - [deploy-flask-app-via-docker](https://runnable.com/docker/python/dockerize-your-flask-application)
@@ -99,3 +102,5 @@ For the deployment of the `heroku` for the `backend` as a `Docker-container` the
 
 **Alternative Deployment Options:**
 - [Deploying BERT Question Answering System as web application using Streamlit](https://www.youtube.com/watch?v=ki84YCluXBk)
+- [Google Cloud VM BERT](https://cloud.google.com/ai-platform/training/docs/algorithms/bert-start)
+- [Google Cloud Dev](https://cloud.google.com/deep-learning-vm/docs/pytorch_start_instance)
