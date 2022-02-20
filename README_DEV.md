@@ -32,6 +32,16 @@ Getting started as another video or alternative(s):
 - https://datahive.ai/conversational-chatbot-part-1/
 - https://towardsdatascience.com/question-answering-with-a-fine-tuned-bert-bc4dafd45626
 - https://datahive.ai/deploying-rasa-chatbot-on-google-cloud-with-docker/
+- https://blog.paperspace.com/how-to-train-question-answering-machine-learning-models/
+
+![image](https://user-images.githubusercontent.com/20924663/153280702-6465adca-c517-4d1b-b160-8eea2dd4839e.png)
+![image](https://user-images.githubusercontent.com/20924663/153280738-ecf93a46-a17c-4a04-9805-32dea03e468c.png)
+![image](https://user-images.githubusercontent.com/20924663/153281199-98fcf597-ff9c-46fa-bc92-22510d4d92e1.png)
+![image](https://user-images.githubusercontent.com/20924663/153289319-948cf4ed-df14-43d3-85ce-9649c699c78e.png)
+![image](https://user-images.githubusercontent.com/20924663/153289950-aa1f84e1-62fc-465c-a980-1c64f900b9c3.png)
+![image](https://user-images.githubusercontent.com/20924663/153293347-30069c06-b8c7-4247-ac87-6213ddc83a9a.png)
+![image](https://user-images.githubusercontent.com/20924663/153293376-b3f6eb0c-dad3-43e3-b4d6-34b3710a58ed.png)
+![image](https://user-images.githubusercontent.com/20924663/153300177-ab4e8655-ccdf-4f0b-8ac3-40be61b2302f.png)
 
 ### 🐋 Docker Guides:
 
