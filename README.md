@@ -14,7 +14,7 @@ This project is a `conversational-agent` tailored on the builing of a `space-edu
 
 ## 📊 Project Graph Overview [ChatBot]
 
-[insert-project-chart-here]
+![image](https://user-images.githubusercontent.com/20924663/160024662-04f0ccf8-0491-4242-b75a-6e5425837286.png)
 
 ## 📃 Data
 
